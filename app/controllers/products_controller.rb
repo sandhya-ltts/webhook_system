@@ -9,6 +9,7 @@ class ProductsController < ApplicationController
 	def update
 		product = Product.where(id: params[:id])
 		product.update(product_params)
+		render json: {message: "Updated Successfully !"}
 	end
 
 
