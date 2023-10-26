@@ -22,6 +22,10 @@ Things you may want to cover:
 * Here , I'm using same application URL to get webhook nofication.
 * Note: Please start the server will 3 ports, 3000, 3002, 3003.
 * Product is created / updated, it will hit the webhook controller notify method and create the record under nre_products tables with new data.
+* when ever the new product is added i'm sending one notification emil to the user. added mail code under mailers. PFA .
+* ![Screenshot from 2023-10-26 18-36-21](https://github.com/sandhya-ltts/webhook_system/assets/149066318/fc2ce371-eab4-493e-adae-9cf19553ff82)
+
+* 
 
 
 Create Product API:
