@@ -37,7 +37,7 @@ Changes are saving under new_products table when ever a product is created / upd
 ![new_products](https://github.com/sandhya-ltts/webhook_system/assets/149066318/031f7556-2c8d-419f-88a7-16a9c961183b)
 
 
-
+Note: In place of saving into same application , we can use any 3rd party URL to get notifications. To test the webhook, i have used same local URL. 
 
 
 
