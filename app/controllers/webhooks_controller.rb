@@ -20,6 +20,9 @@ class WebhooksController < ApplicationController
   	new_product.description = params[:description]
   	new_product.price = params[:price]
   	new_product.save!
+  	user = User.first # current user will come here
+	  ProductNotificationMailer.new_changes_notification(user, new_product).deliver_now
+
   	render json: {:success => true}
   end
 
